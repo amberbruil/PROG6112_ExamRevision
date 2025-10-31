@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-import prog6112_examrevision.MovieTickets;
+import Question1.MovieTickets;
+import static junit.framework.Assert.assertEquals;
+import org.junit.Test;
 
 /**
  *
  * @author amber-mac
  */
-public class MovieTicketsTests {
+public class Q1Tests {
     
     private final MovieTickets movieTickets = new MovieTickets();
 
